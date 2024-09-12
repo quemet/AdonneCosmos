@@ -1,0 +1,25 @@
+{
+  "name": "cosmos-extension",
+  "displayName": "Cosmos Extension",
+  "description": "Supported Language Cosmos",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cosmos",
+      "aliases": ["Cosmos", "cosmos"],
+      "extensions": [".csm"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cosmos",
+      "scopeName": "main.csm",
+      "path": "./syntaxes/cosmos.tmLanguage.json"
+    }]
+  }
+}
