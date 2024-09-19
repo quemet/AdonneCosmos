@@ -1,32 +1,38 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"scopeName": "main.csm",
 	"name": "Cosmos",
 	"patterns": [
 		{
-			"include": "Afficher"
+			"name": "keyword.control.cosmos",
+			"match": "\\b(Afficher|Effacer l'écran)\\b"
 		},
 		{
-			"include": "#strings"
+			"name": "comment.line.double-slash.cosmos",
+			"match": "//.*"
+		},
+		{
+			"name": "comment.block.cosmos",
+			"begin": "/\\*",
+			"end": "\\*/"
+	  	},
+		{
+			"name": "variable.cosmos",
+			"match": "#[a-zA-Z_][a-zA-Z0-9_]*"
+		},
+		{
+			"name": "keyword.operator.arithmetic.cosmos",
+			"match": "[+\\-*/%^]"
+		},
+		{
+			"name": "string.cosmos",
+			"begin": "[\"]",
+			"end": "[\"]"
+		},
+		{
+			"name": "keyword.operator.logical.cosmos",
+			"match": " <= | < | > | >= | = | == | est égale à | n'est pas égale à | est supérieure à | est inféerieur à | est supérieure ou égale à | est plus petit ou égale à "
 		}
 	],
-	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.cosmos",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.cosmos",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.cosmos",
-					"match": "\\\\."
-				}
-			]
-		}
-	},
-	"scopeName": "main.csm"
+	"repository": {},
+	"injections": {}
 }
