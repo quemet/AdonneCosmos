@@ -1,10 +1,10 @@
 {
-	"scopeName": "main.csm",
+	"scopeName": "main.cosmos",
 	"name": "Cosmos",
 	"patterns": [
 		{
 			"name": "keyword.control.cosmos",
-			"match": "\\b(Afficher|Effacer l'écran)\\b"
+			"match": "\\b(Afficher|Effacer l'écran|Placer le curseur à la ligne |Placer le curseur à la colonne )\\b"
 		},
 		{
 			"name": "comment.line.double-slash.cosmos",
@@ -30,8 +30,28 @@
 		},
 		{
 			"name": "keyword.operator.logical.cosmos",
-			"match": " <= | < | > | >= | = | == | est égale à | n'est pas égale à | est supérieure à | est inféerieur à | est supérieure ou égale à | est plus petit ou égale à "
-		}
+			"match": " ou | et |ou au contraire|et au contraire|l'inverse de|not"
+		},
+		{
+			"name": "keyword.operator.arithmetic",
+			"match": " <= | < | > | >= | = | == | est égale à | n'est pas égale à | est supérieure à | est inférieur à | est supérieure ou égale à | est plus petit ou égale à "
+		},
+		{
+			"name": "keyword.operator",
+			"match": "Si|alors|sinon|sinon si|et sinon"
+		},
+		{
+			"name": "keyword.operator.questionmark",
+			"match": "\\?"
+		},
+		{
+			"name": "keyword.loop",
+			"match": "Répeter\\s\\d+x|Répeter\\sautant\\sde\\sfois\\squ'il\\sy\\sa|Répeter\\sle\\snombre\\sde\\sfois\\scorrespond\\sà|Répeter\\stant\\sque"
+		},
+		{
+			"name": "keyword.control.other",
+			"match": "Découper | sur |Attendre | ms"
+		}		  
 	],
 	"repository": {},
 	"injections": {}
