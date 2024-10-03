@@ -38,13 +38,13 @@
             }
           },
           {
-            "scope": "variable.cosmos",
+            "scope": "keyword.operator.arithmetic.cosmos",
             "settings": {
-              "foreground": "#9CDCFE"
+              "foreground": "#569CD6"
             }
           },
           {
-            "scope": "keyword.operator.arithmetic.cosmos",
+            "scope": "keyword.operator.arithmetic.fullname.cosmos",
             "settings": {
               "foreground": "#569CD6"
             }
@@ -53,6 +53,12 @@
             "scope": "string.cosmos",
             "settings": {
               "foreground": "#CE9178"
+            }
+          },
+          {
+            "scope": "variable.cosmos",
+            "settings": {
+              "foreground": "#9CDCFE"
             }
           },
           {
@@ -89,6 +95,36 @@
             "scope": "keyword.control.other",
             "settings": {
               "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "keyword.color.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "variable.input.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "variable.name.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "variable.random.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "keyword.slash.comos",
+            "settings": {
+              "foreground": "#FFFF00"
             }
           }
         ]
