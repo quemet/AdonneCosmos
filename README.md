@@ -10,12 +10,14 @@ Créer un addon pour vscode qui supporte la syntaxe du langage cosmos.
 
 ## 3. Table des matières
 
+- [Requirements](#4-requirements)
 - [Installation](#5-installation)
 - [Utilisation](#6-utilisation)
 - [Journal de travail](#7-journal-de-travail)
 - [Technologie Utilisé](#8-technologie-utilisé)
-- [Auteur(s)](#9-auteurs)
-- [Licences](#10-licence)
+- [Tache qui reste à faire](
+- [Auteur(s)](#10-auteurs)
+- [Licences](#11-licence)
 
 ## 4. Requirements
 
@@ -48,10 +50,14 @@ Pour voir le journal de travail, veuillez vous rendre dans le dossier racine de 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
-## 9. Auteur(s)
+## 9. Taches qui reste à faire
+
+
+
+## 10. Auteur(s)
 
 **Auteur** : [Quentin Métroz](https://github.com/quemet)
 
-## 10. Licence
+## 11. Licence
 
-Ce projet est sous licence [MIT](https://github.com/quemet/P_323-PlotThatLines/blob/main/LICENSE).
+Ce projet est sous licence [MIT](https://github.com/quemet/AdonneCosmos/blob/main/LICENSE).
