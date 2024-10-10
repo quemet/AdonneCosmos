@@ -126,6 +126,12 @@
             "settings": {
               "foreground": "#FFFF00"
             }
+          },
+          {
+            "scope": "error.cosmos",
+            "settings": {
+              "fontStyle": "underline"
+            }
           }
         ]
       }

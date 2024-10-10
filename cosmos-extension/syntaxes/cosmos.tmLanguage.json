@@ -1,5 +1,5 @@
 {
-	"scopeName": "main.cosmos",
+	"scopeName": "*.cosmos",
 	"name": "Cosmos",
 	"patterns": [
 		{
@@ -82,7 +82,5 @@
 			"name": "variable.random.cosmos",
 			"match": "Placer un nombre aléatoire compris entre "
 		}
-	],
-	"repository": {},
-	"injections": {}
+	]
 }
