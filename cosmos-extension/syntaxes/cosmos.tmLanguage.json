@@ -1,0 +1,88 @@
+{
+	"scopeName": "main.cosmos",
+	"name": "Cosmos",
+	"patterns": [
+		{
+			"name": "keyword.operator.arithmetic",
+			"match": " <= | < | > | >= | = | == | est égal à | n'est pas égale à | est supérieure à | est inférieure à | est supérieure ou égale à | est plus petit ou égale à | est différente de | est plus grand que | est plus petit que | est plus grande ou égale à | est plus petite ou égale à "
+		},
+		{
+			"name": "keyword.control.cosmos",
+			"match": "\\b(Afficher|Effacer l'écran|Placer le curseur à la ligne |Placer le curseur à la colonne |Choisir la couleur|pour le texte|pour le fond)\\b"
+		},
+		{
+			"name": "comment.line.double-slash.cosmos",
+			"match": "//.*"
+		},
+		{
+			"name": "comment.block.cosmos",
+			"begin": "/\\*",
+			"end": "\\*/"
+	  	},
+		{
+			"name": "variable.cosmos",
+			"match": "#[\\w]*"
+		},
+		{
+			"name": "keyword.operator.arithmetic.cosmos",
+			"match": "[+\\-*/%^]"
+		},
+		{
+			"name": "keyword.operator.arithmetic.fullword.cosmos",
+			"match": " plus | moins | fois | divisé par | élevé à la puissance | puissance |racine carrée de |le reste de la division entière de | par | modulo "
+		},
+		{
+			"name": "string.cosmos",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "variable.cosmos",
+					"match": "#[\\w]*"
+				},
+				{
+					"name": "keyword.slash.comos",
+					"match": "\\\\[nt]"
+				}
+			]
+		},
+		{
+			"name": "keyword.operator.logical.cosmos",
+			"match": " ou au contraire | et |ou |et au contraire|l'inverse de|not|!"
+		},
+		{
+			"name": "keyword.operator",
+			"match": "Si | alors|sinon si |sinon |et sinon"
+		},
+		{
+			"name": "keyword.operator.questionmark",
+			"match": "\\?"
+		},
+		{
+			"name": "keyword.loop",
+			"match": "Répéter autant de fois qu'il y a de |Répéter le nombre de fois correspond à |Répéter tant que |Répéter \\d+x"
+		},
+		{
+			"name": "variable.input.cosmos",
+			"match": "Récupérer la saisie et la stocker dans la zone mémoire nommée |Récupérer la saisie et la stocker dans |Attendre la prochaine touche et la stocker dans "
+		},
+		{
+			"name": "variable.name.cosmos",
+			"match": "Copier le texte |Créer une zone mémoire |Insérer la valeur | dans la zone mémoire nommée |Allouer une zone de mémoire nommée| dans la zone mémoire |dans |Allouer "
+		},	
+		{
+			"name": "keyword.control.other",
+			"match": "Découper | sur |Attendre | ms"
+		},
+		{
+			"name": "keyword.color.cosmos",
+			"match": " rouge | vert | bleu | blanc | noir | gris |foncé"
+		},
+		{
+			"name": "variable.random.cosmos",
+			"match": "Placer un nombre aléatoire compris entre "
+		}
+	],
+	"repository": {},
+	"injections": {}
+}

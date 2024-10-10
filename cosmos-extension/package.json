@@ -1,0 +1,139 @@
+{
+  "name": "cosmos-extension",
+  "displayName": "Cosmos Extension",
+  "description": "Supported Language Cosmos",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "cosmos",
+      "aliases": ["Cosmos", "cosmos"],
+      "extensions": [".cosmos"],
+      "configuration": "./language-configuration.json"
+    }],
+    "configurationDefaults": {
+      "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": "keyword.control.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "comment.line.double-slash.cosmos",
+            "settings": {
+              "foreground": "#6A9955"
+            }
+          },
+          {
+            "scope": "comment.block.cosmos",
+            "settings": {
+              "foreground": "#6A9955"
+            }
+          },
+          {
+            "scope": "keyword.operator.arithmetic.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "keyword.operator.arithmetic.fullname.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "string.cosmos",
+            "settings": {
+              "foreground": "#CE9178"
+            }
+          },
+          {
+            "scope": "variable.cosmos",
+            "settings": {
+              "foreground": "#9CDCFE"
+            }
+          },
+          {
+            "scope": "keyword.operator.logical.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "keyword.operator.arithmetic",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "keyword.operator",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "keyword.operator.questionmark",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "keyword.loop",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "keyword.control.other",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "keyword.color.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "variable.input.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "variable.name.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "variable.random.cosmos",
+            "settings": {
+              "foreground": "#569CD6"
+            }
+          },
+          {
+            "scope": "keyword.slash.comos",
+            "settings": {
+              "foreground": "#FFFF00"
+            }
+          }
+        ]
+      }
+    },
+    "grammars": [{
+      "language": "cosmos",
+      "scopeName": "main.cosmos",
+      "path": "./syntaxes/cosmos.tmLanguage.json"
+    }]
+  }
+}
