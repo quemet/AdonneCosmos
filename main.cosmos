@@ -1,0 +1,161 @@
+#abc = "123"
+
+Afficher "Bonjour"
+Afficher "Retour à la ligne \n"
+Afficher "#abc"
+Afficher "Bonjour #nom"
+Choisir la couleur rouge pour le texte
+Choisir la couleur rouge foncé pour le fond
+Placer le curseur à la ligne 5
+Placer le curseur à la colonne 8
+Effacer l'écran
+
+Récupérer la saisie et la stocker dans la zone mémoire nommée #input
+Récupérer la saisie et la stocker dans #prenom.
+Attendre la prochaine touche et la stocker dans #toucheP
+
+Allouer une zone de mémoire nommée #longueur
+Insérer la valeur 5 dans la zone mémoire nommée #nombreEnfants
+Créer une zone mémoire #largeur
+Copier le texte "Vous avez #nombreEnfants." dans #reponse 
+Allouer #age
+#age = 37
+
+#resultat = 1 plus 2. 
+#resultat = 1 + 2. 
+#fruits = #pommes + #poires.
+#resultat = 6 moins 4. 
+#resultat = 6 - 4. 
+#age = 2020 - #anneeNaissance.
+#resultat = 5 fois 6. 
+#resultat = 5 * 6. 
+#rabais = #prix - (#prix * 0.10).
+#resultat = 6 divisé par 2. 
+#rabais = #prix / 2.
+#resultat = 3 élevé à la puissance 2. 
+#resultat= 3 puissance 2. 
+#resultat = 3^2.
+#resultat = racine carrée de 4.
+#resultat = le reste de la division entière de 5 par 2. 
+#resultat = 5 modulo 2. 
+#resultat = 5 % 2.
+Placer un nombre aléatoire compris entre 1 et 5 dans la zone mémoire nommée #random.
+Placer un nombre aléatoire compris entre 1 et 5 dans la zone mémoire #random.
+Placer un nombre aléatoire compris entre 1 et 5 dans #random.
+
+Si #monAge vaut 37 alors
+ Afficher "Né en 1983".
+?
+
+#a37ans = #age est égal à 37. 
+#a37ans = #age == 37.
+
+Si #laMeteo est différente de "pluie" alors 
+ Afficher "Temps sec".
+?
+
+#pluvieux = #meteo n'est pas égale à "pluie". 
+#soleil = #meteo != "pluie".
+
+Si #monSalaire est plus grand que 50000 alors
+ Afficher "Situation confortable".
+?
+
+#okPourBluefire = #taille est supérieure à 150. 
+#estMajeur = #age > 17.
+
+Si #monSalaire est plus petit que 25000 alors
+ Afficher "Mode survie".
+?
+
+#limboFacile = #taille est inférieure à 100. 
+#estMineur = #age < 18.
+
+Si #laVitesse est plus grande ou égale à 125 alors
+ Afficher "Attention aux radars".
+?
+
+#excesDeVitesse = #vitesse est supérieure ou égale à 51. 
+#estMajeur = #age >= 18.
+
+Si #laVitesse est plus petite ou égale à 50 alors
+ Afficher "Zone villageoise".
+?
+
+#zone30 = #vitesse est plus petite ou égale à 30. 
+#estMineur = #age <= 17.
+
+Si #vitesse > 120 alors
+ Afficher "Allemagne".
+?
+
+Si #vitesse est plus petite ou égale à 80 alors
+ Afficher "Pas sur l'autoroute".
+sinon
+ Afficher "Sur l'autoroute".
+?
+
+Si #age est plus petit que 12 alors
+ #tarif = 0.
+sinon si #age < 18 alors
+ #tarif = 15.
+sinon si #age > 65 alors
+ #tarif = 12.
+?
+Afficher "Prix du billet : #tarif CHF".
+
+Si #age < 12 alors
+ #tarif = 0.
+sinon si #age < 18 alors
+ #tarif = 15.
+sinon si #age > 65 alors
+ #tarif = 12.
+et sinon
+ #tarif = 18. //tarif adulte
+
+faux et faux => faux
+vrai et faux => faux
+faux et vrai => faux
+vrai et vrai => vrai
+faux ou faux => faux
+vrai ou faux => vrai
+faux ou vrai => vrai
+vrai ou vrai => vrai
+faux ou au contraire faux => faux
+vrai ou au contraire faux => vrai
+faux ou au contraire vrai => vrai
+vrai ou au contraire vrai => faux
+#vrai = l'inverse de faux.
+#vrai = !faux.
+#vrai = not faux.
+
+Répéter 8x
+ #tour = #tour + 1.
+>> 
+
+Répéter autant de fois qu'il y a de #jours
+ Afficher "Bonjour".
+>>
+
+Répéter le nombre de fois correspond à #jours
+ Afficher "Bonjour".
+>>
+
+Répéter tant que #pulsation < 180
+ Afficher "Plus vite".
+>>
+
+Découper "a,b,c" sur ",".
+Afficher "##decoupage.1".
+Découper "12.05.2987" sur ".".
+Afficher "##decoupage.1". 
+Découper "anabelle" sur "b".
+Afficher "##decoupage.2".
+Afficher "##date.jour" . 
+#annee = ##date.annee . 
+#heure= "##date.heure:##date.minute".
+Attendre 500 ms. 
+Attendre #pause ms. 
+Attendre #seconde * 1000 ms.
+
+
