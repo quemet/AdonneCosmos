@@ -43,11 +43,6 @@ Créer un addon pour vscode qui supporte la syntaxe du langage cosmos.
 
 Pour voir le journal de travail, veuillez vous rendre dans le dossier racine de ce projet et ouvrez le fichier nommé **JNLTRAV-QueMetroz.xlsm**, puis allez dans l'onglet **Journal de Travail**
 
-<br>
-<br>
-<br>
-<br>
-
 ## 8. Technologie Utilisé
 
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
@@ -76,7 +71,7 @@ Pour voir le journal de travail, veuillez vous rendre dans le dossier racine de 
 
 ```json
 {
-    "name": "cosmos-extension", # Define the name of the extension
+    "name": "cosmos-extension", // Define the name of the extension
     "displayName": "Cosmos Extension", // Define the name of the extension when it's displayed by VS Code
     "description": "Supported Language Cosmos", // Define the description of the extension
     "version": "0.0.1", // Define the version of the extension
