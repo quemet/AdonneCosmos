@@ -76,7 +76,7 @@ Pour voir le journal de travail, veuillez vous rendre dans le dossier racine de 
 
 ```json
 {
-    "name": "cosmos-extension", // Define the name of the extension
+    "name": "cosmos-extension", /// Define the name of the extension
     "displayName": "Cosmos Extension", // Define the name of the extension when it's displayed by VS Code
     "description": "Supported Language Cosmos", // Define the description of the extension
     "version": "0.0.1", // Define the version of the extension
