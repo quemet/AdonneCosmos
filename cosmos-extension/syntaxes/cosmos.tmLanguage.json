@@ -1,5 +1,6 @@
 {
-	"scopeName": "*.cosmos",
+	"scopeName": "main.cosmos",
+	"fileTypes": ["cosmos"],
 	"name": "Cosmos",
 	"patterns": [
 		{
