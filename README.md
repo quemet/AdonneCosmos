@@ -13,6 +13,8 @@ Créer un addon pour vscode qui supporte la syntaxe du langage cosmos.
 - [Requirements](#4-requirements)
 - [Installation](#5-installation)
 - [Utilisation](#6-utilisation)
+    - [Execution de l'extension en mode Debug](#61-execution-de-lextension-en-mode-debug)
+    - [Utilisation de l'extension installé](#62-utilisation-de-lextension-installé)
 - [Journal de travail](#7-journal-de-travail)
 - [Technologie Utilisé](#8-technologie-utilisé)
 - [Tache qui reste à faire](#9-taches-qui-reste-à-faire)
@@ -32,9 +34,16 @@ Créer un addon pour vscode qui supporte la syntaxe du langage cosmos.
 
 ## 6. Utilisation
 
-- `cd AdonneCosmos` -> Ce dépalce dans le répertoire de l'extension
+### 6.1. Execution de l'extension en mode Debug
+
+- `cd AdonneCosmos/cosmos-exttension` -> Ce dépalce dans le répertoire de l'extension
 - `code .` -> Permet d'ouvrir VS Code avec comme espace de travail le dossier courant
 - Appuyer sur la touche `F5` -> Permet d'éxecuter localement l'extension
+
+### 6.2. Utilisation de l'extension installé
+
+- `cd AdonneCosmos/cosmos-exttension` -> Ce déplace dans le répertoire
+- `code --install-extension cosmos-extension-0.0.1.vsix` -> Installe l'extension dans VS Code
 
 ## 7. Journal de travail
 
@@ -63,7 +72,7 @@ Pour voir le journal de travail, veuillez vous rendre dans le dossier racine de 
 
 - Adapter l'extension pour les erreurs de syntaxes et les warnings
 - Test de l'extension avec Tests unitaire
-- Publier l'extension
+- Publier l'extension (Avec le marketplace pour l'installer depuis le marketplce de vscode)
 
 ## 10. Auteur(s)
 
