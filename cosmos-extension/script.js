@@ -1,3 +1,9 @@
+/*
+    Description : Recrée le package de l'extension et supprimme l'ancien package
+    Auteur : Quentin Métroz
+    Crée le : 31.10.2024
+    Mis a jour le : 31.10.2024
+*/
 const { exec } = require('child_process') // Module permetttant d'éxecuter des sous processus
 const data = require('./package.json') // Importe les données du JSON
 const fs = require('node:fs') // Module qui permet de travailler avec le systéme de fichier
